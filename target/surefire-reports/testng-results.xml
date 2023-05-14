@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="10135" started-at="2023-05-13T06:26:39Z" finished-at="2023-05-13T06:26:50Z">
+    <groups>
+    </groups>
+    <test name="Nopackage" duration-ms="10135" started-at="2023-05-13T06:26:39Z" finished-at="2023-05-13T06:26:50Z">
+      <class name="test.Tests">
+        <test-method status="PASS" signature="setPayLoad()[pri:0, instance:test.Tests@29ba4338]" name="setPayLoad" duration-ms="198" started-at="2023-05-13T06:26:39Z" finished-at="2023-05-13T06:26:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPayLoad -->
+        <test-method status="PASS" signature="testCreateUser()[pri:1, instance:test.Tests@29ba4338]" name="testCreateUser" duration-ms="4389" started-at="2023-05-13T06:26:40Z" depends-on-methods="test.Tests.setPayLoad" finished-at="2023-05-13T06:26:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUser -->
+        <test-method status="PASS" signature="testGetUser()[pri:2, instance:test.Tests@29ba4338]" name="testGetUser" duration-ms="1728" started-at="2023-05-13T06:26:44Z" finished-at="2023-05-13T06:26:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUser -->
+        <test-method status="PASS" signature="testUpdateUser()[pri:3, instance:test.Tests@29ba4338]" name="testUpdateUser" duration-ms="1554" started-at="2023-05-13T06:26:46Z" finished-at="2023-05-13T06:26:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUser -->
+        <test-method status="PASS" signature="testDeleteUser()[pri:4, instance:test.Tests@29ba4338]" name="testDeleteUser" duration-ms="2226" started-at="2023-05-13T06:26:47Z" finished-at="2023-05-13T06:26:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUser -->
+      </class> <!-- test.Tests -->
+    </test> <!-- Nopackage -->
+  </suite> <!-- Suite1 -->
+</testng-results>

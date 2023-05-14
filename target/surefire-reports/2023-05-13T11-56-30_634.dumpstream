@@ -1,0 +1,5 @@
+# Created at 2023-05-13T11:56:33.646
+Boot Manifest-JAR contains absolute paths in classpath 'F:\Eclipse-Workspace\PavanRestAssuredFramework\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
